@@ -12,6 +12,7 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink("Question 1: Sizing", destination: Question1View())
+                NavigationLink("Question 2: Sizing", destination: Question2View())
             }
         }
     }
